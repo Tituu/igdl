@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Downloader</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Video Downloader</h1>
+    <input type="text" id="urlInput" placeholder="Paste YouTube URL here" />
+    <button onclick="fetchFormats()">Fetch Formats</button>
+
+    <div id="formatsContainer" style="display: none;">
+      <h2>Available Formats:</h2>
+      <ul id="formatsList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
